@@ -1,5 +1,6 @@
 import React from 'react';
-import Posts from 'Posts.js';
+import Posts from './Components./Posts';
+import './App.css'
 
 const App = () =>{
     return {
