@@ -6,7 +6,7 @@ const Post = () => (
         <h1>title</h1>
         <h1>description</h1>
     </div>
-    
+
 );
 
 
