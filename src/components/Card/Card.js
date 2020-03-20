@@ -8,6 +8,7 @@ const Card = (props) => {
             <h1 className="category">{props.category}</h1>
             <img className="picture" alt="card" src={props.image} />
             <p className="description">{props.description}</p>
+        
         </div>
     );
 };

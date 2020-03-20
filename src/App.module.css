@@ -1,0 +1,15 @@
+.Container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+}
+.logo{
+
+    height: 5%;
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-left: 35%; */
+}

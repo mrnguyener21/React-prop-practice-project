@@ -1,11 +1,11 @@
 .cardContainer {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    padding: 25px;
+    /* border: 2px solid white; */
+    padding: 70px;
     width: 10%;
-    height: 500px;
     margin: 0 10px;
+    color: white
 }
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
