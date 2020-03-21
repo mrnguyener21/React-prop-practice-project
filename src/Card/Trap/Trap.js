@@ -1,5 +1,4 @@
 import React from 'react';
-import Traps from 'traps';
 
 const Trap = () => {
     return (

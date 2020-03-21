@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Traps = () => {
+const Spell = () => {
     return (
         <div>
-            <h1>TRAPS</h1>
+            <h1>SPELL</h1>
         </div>
     );
 };
 
-export default Traps;
+export default Spell;

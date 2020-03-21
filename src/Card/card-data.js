@@ -1,7 +1,7 @@
-import darkMagician from './images/dark-magician.jpg';
-import slifer from './images/slifer.jpg';
-import swordsOfRevealingLight from './images/swords-of-revealing-light.jpg';
-import mirrorForce from './images/mirror-force.jpg';
+import darkMagician from '../images/dark-magician.jpg';
+import slifer from '../images/slifer.jpg';
+import swordsOfRevealingLight from '../images/swords-of-revealing-light.jpg';
+import mirrorForce from '../images/mirror-force.jpg';
 const cards = [
     { category:'MONSTER CARD', description:'The basic monster card with a given attack and defense, but no effect', image: darkMagician },
     { category:'EFFECT MONSTER CARD', description:'Similar to the monster card except there is an effect in addition to their basic stats', image: slifer },
