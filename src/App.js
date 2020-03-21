@@ -1,45 +1,32 @@
-import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Cards from './Card/Cards';
-import Monsters from './Card/Monster/Monsters';
-import Spells from './Card/Spell/Spells';
-import Traps from './Card/Trap/Traps';
+import Home from './components/Home/Home';
+import DetailedCards from './components/DetailedCards/DetailedCards';
 
-
-import yugioh from './images/yugioh.png';
-import styles from './App.module.css';
-import cards from './Card/card-data';
-
-
-
-
-
-
-const App = () =>{
-    return (
-        <div className = {styles.Container}>
-            <img className={styles.logo} src = {yugioh} alt='image' /> 
-            <div className={styles.intro}>Below are the 4 basic categories</div>
-            <Router>
-                <Route path = '/' exact component={Cards}/>
-                <Route path="/monster" component={Monsters}/>           
-                <Route path='/spell'  component={Spells}/>
-                <Route path='/trap'  component={Traps}/>  
-              
-            </Router>
-
-
-        </div>
-    )
-};
-
+const App = () => {
+  return (
+    <Router>
+        <Switch>
+          <Route path="/monsters"render={(props) => <DetailedCards {...props} type='monsters' />} />
+          <Route path="/spells"render={(props) => <DetailedCards {...props} type='spells' />} />
+          <Route path="/traps"render={(props) => <DetailedCards {...props} type='traps' />} />
+          <Route path="/"><Home /></Route>
+        </Switch>
+    </Router>
+  );
+}
 export default App;
 
-//so is the app.js file not the "body" of the file?
+// something.Map((card/*this is the data*/) => {
+//   return /*then we passed the data as a prop to the component here*/
+//   <Card /*this is a prop => */ title='string' description='test1' />
+// };
 
-//download react-router
-// create a folder for monster, spell and trap along with a card cards and data .js for each one
-//link the files to app.js
-//once the pages have been succesfully routed and link to app.js begin to style the page 
-// import {browserRouter as Router, Switch, Route, Link} Write notes on what each one is for
+// const Card = (props) => {
+//   console.log(props); 
+//   // { 
+//   //   title: 'string', 
+//   //   description:'test1' 
+//   // }
+// }
