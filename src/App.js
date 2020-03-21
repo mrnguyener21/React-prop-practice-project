@@ -2,13 +2,14 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 import Cards from './Card/Cards';
-import Monsters from './Monster/Monsters';
-import Spells from './Spell/Spells';
-import Traps from './Trap/Traps';
+import Monsters from './Card/Monster/Monsters';
+import Spells from './Card/Spell/Spells';
+import Traps from './Card/Trap/Traps';
 
 
 import yugioh from './images/yugioh.png';
 import styles from './App.module.css';
+import cards from './Card/card-data';
 
 
 
@@ -21,11 +22,13 @@ const App = () =>{
             <img className={styles.logo} src = {yugioh} alt='image' /> 
             <div className={styles.intro}>Below are the 4 basic categories</div>
             <Router>
+                <Route path = '/' exact component={Cards}/>
                 <Route path="/monster" component={Monsters}/>           
                 <Route path='/spell'  component={Spells}/>
                 <Route path='/trap'  component={Traps}/>  
+              
             </Router>
-            <Cards/>
+
 
         </div>
     )
