@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './Cards.module.css';
 import Card from '../Card/Card';
 
-import cards from '../../card-data.js';
+import cards from '../card-data.js';
 
 const Cards = () => {
     return (
