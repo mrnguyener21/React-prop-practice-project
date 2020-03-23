@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'; //importing react
 
-import Cards from '../Cards/Cards';
-import yugioh from '../../images/yugioh.png';
-import styles from './Home.module.css';
+import Cards from '../Cards/Cards'; //importing data from cards component
+import yugioh from '../../images/yugioh.png';//importing image
+import styles from './Home.module.css';//importing styles
 
 const Home = () => {
     return (
