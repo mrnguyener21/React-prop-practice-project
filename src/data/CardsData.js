@@ -10,5 +10,3 @@ export default [
     { category:'SPELL CARD', description:'Different from monster cards, these cards only have effects which can be used at almost any moment affecting duels in many ways', image: swordsOfRevealingLight, title: 'spells' },
     { category:'TRAP', description: 'Similar to the spell cards, however specific conditions must be meant in order for these cards to be trigered which can very well be the key to winning a duel', image: mirrorForce, title: 'traps'},
 ];
-
-// https://db.ygoprodeck.com/api/v5/cardinfo.php

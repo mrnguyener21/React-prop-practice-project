@@ -12,8 +12,16 @@ const DetailedCards = (props) => {
 
   return (
     <div className={styles.detailedCards}>
-      {DetailedCardsData[props.type].map((detailedCardData) => <DetailedCard title={detailedCardData.title} description={detailedCardData.description} />)} 
-      {/* //QUESTION HOW HOW DOES THE TYPE MATCH WHEN DETAILEDCARDSDATA DOES NOT HAVE A PROP NAMED TYPE TO MATCH TO?s */}
+      {
+      DetailedCardsData[props.type]
+        .map((detailedCardData) => (
+          <DetailedCard 
+            title={detailedCardData.title} 
+            description={detailedCardData.description} 
+          />
+        ))} 
+      {
+      /* //QUESTION HOW HOW DOES THE TYPE MATCH WHEN DETAILEDCARDSDATA DOES NOT HAVE A PROP NAMED TYPE TO MATCH TO?s */}
     </div>
   )
 }

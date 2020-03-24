@@ -1,5 +1,5 @@
 
-//below we are exporting the data for detailedcards. We are exporting three different arrays each with their own objects
+// below we are exporting the data for detailedcards. We are exporting three different arrays each with their own objects
 export default {
     monsters: [
         { title: 'Normal', description: 'normal monster'},
