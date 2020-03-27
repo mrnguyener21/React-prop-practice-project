@@ -4,6 +4,8 @@ import Cards from '../Cards/Cards'; //importing data from cards component
 import yugioh from '../../images/yugioh.png';//importing image
 import styles from './Home.module.css';//importing styles
 
+
+
 const Home = () => {
     return (
       <div className = {styles.Container}>

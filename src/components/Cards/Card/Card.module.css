@@ -10,10 +10,14 @@
 
 }
 
+.link{
+    /* border: 2px dashed white; */
+    color: white;
+}
 .category{
     /* border: 2px solid white; */
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 200%;
     padding-bottom: 5px;
     

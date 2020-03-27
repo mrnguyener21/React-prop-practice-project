@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; //imo
 import Home from './components/Home/Home'; //importing our Home.js file aka our homepage
 import DetailedCards from './components/DetailedCards/DetailedCards'; //importing our detailedcards.js file aka our file givin the description of each type of card in the monster page, spell page and trap page
 
+
 const App = () => {
   return (
     <Router> //this tag allows us to use our router dom and it's called router instead of BrowserRouter since we set it "as router" when we imported it
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/"><Home /></Route>
         </Switch>
     </Router>
+
   );
 }
 export default App; //exporting the Apps component

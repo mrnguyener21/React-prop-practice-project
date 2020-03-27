@@ -1,4 +1,18 @@
 .detailedCard {
-  background: whitesmoke;
-  width: 20%;
+  color: white;
+  /* border: solid; */
+  border-top:solid;
+  border-bottom: solid;
+  width: 100%;
+  padding-left: 1%;
+}
+.info{
+  display: flex;
+  /* border: dashed; */
+  align-items: center;
+
+}
+.image{
+  display: flex;
+  padding-right: 5%;
 }

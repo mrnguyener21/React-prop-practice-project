@@ -8,5 +8,5 @@ export default [
     { category:'MONSTER CARD', description:'The basic monster card with a given attack and defense, but no effect', image: darkMagician , title: 'monsters'},
     // { category:'EFFECT MONSTER CARD', description:'Similar to the monster card except there is an effect in addition to their basic stats', image: slifer },
     { category:'SPELL CARD', description:'Different from monster cards, these cards only have effects which can be used at almost any moment affecting duels in many ways', image: swordsOfRevealingLight, title: 'spells' },
-    { category:'TRAP', description: 'Similar to the spell cards, however specific conditions must be meant in order for these cards to be trigered which can very well be the key to winning a duel', image: mirrorForce, title: 'traps'},
+    { category:'TRAP CARD', description: 'Similar to the spell cards, however specific conditions must be meant in order for these cards to be trigered which can very well be the key to winning a duel', image: mirrorForce, title: 'traps'},
 ];

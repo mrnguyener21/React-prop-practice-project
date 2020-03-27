@@ -6,7 +6,10 @@ const DetailedCard = (props) => {
   return (
     <div className={styles.detailedCard}> 
       <h1>{props.title}</h1>
-      <h1>{props.description}</h1>
+      <h1 className={styles.info}>
+          <img className={styles.image} alt='card' src={props.image}/>
+          {props.description}
+        </h1>
     </div>
   )
 }

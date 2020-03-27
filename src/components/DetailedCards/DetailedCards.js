@@ -17,7 +17,8 @@ const DetailedCards = (props) => {
         .map((detailedCardData) => (
           <DetailedCard 
             title={detailedCardData.title} 
-            description={detailedCardData.description} 
+            description={detailedCardData.description}
+            image={detailedCardData.image} 
           />
         ))} 
       {
