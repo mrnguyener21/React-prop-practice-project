@@ -5,11 +5,11 @@ import styles from './DetailedCard.module.css';
 const DetailedCard = (props) => {
   return (
     <div className={styles.detailedCard}> 
-      <h1>{props.title}</h1>
-      <h1 className={styles.info}>
+      <h1 className={styles.title}>{props.title}</h1>
+      <div className={styles.info}>
           <img className={styles.image} alt='card' src={props.image}/>
-          {props.description}
-        </h1>
+          <h1 className={styles.description}>{props.description}</h1>
+      </div>
     </div>
   )
 }

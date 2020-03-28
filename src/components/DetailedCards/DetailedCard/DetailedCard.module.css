@@ -1,18 +1,35 @@
 .detailedCard {
   color: white;
   /* border: solid; */
-  border-top:solid;
-  border-bottom: solid;
-  width: 100%;
-  padding-left: 1%;
+  border-left:4px solid white;
+  border-right:4px solid white;
+  border-top:2px solid white;
+  border-bottom:2px solid white;
+  width: 50%;
+  padding-left: 2%;
+  padding-bottom:.5%;
+  margin-top:.5%;
+  margin-bottom:.5%;
+  
+  
+}
+.title{
+  border:solid;
+  /* padding-left: 50px; */
+  display: flex;
+  justify-content: center;
+  width:17%;
 }
 .info{
   display: flex;
   /* border: dashed; */
+  
   align-items: center;
+  width:100%;
 
 }
 .image{
-  display: flex;
-  padding-right: 5%;
+/* border: 2px solid yellow; */
+padding-right: 5%;
+/* padding-left:2%; */
 }

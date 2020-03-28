@@ -1,7 +1,6 @@
-import React from 'react'; //importing reactmodule
-import { Link } from "react-router-dom"; //importing link tag from react router module
-
-import styles from'./Card.module.css'; //importing styling 
+import React from 'react'; 
+import { Link } from "react-router-dom"; 
+import styles from'./Card.module.css'; 
 
 const Card = (props) => {
     return (
@@ -10,7 +9,6 @@ const Card = (props) => {
                 <h1 className={styles.category}>{props.cardData.category}</h1>  
             </Link>
             <img className={styles.picture} alt="card" src={props.cardData.image} />
-            <p className={styles.description}>{props.cardData.description}</p>
      
         </div>
     );

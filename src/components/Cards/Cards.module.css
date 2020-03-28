@@ -7,8 +7,3 @@
     /* border: 2px dashed white; */
 
 }
-body{
-    background-image: url('../../images/wallpaper.jpg');
-    background-size: cover;
-}
-/* why does the body work in the cards.module or will it work in any css? */
